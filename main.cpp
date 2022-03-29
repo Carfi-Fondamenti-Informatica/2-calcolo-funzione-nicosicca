@@ -4,9 +4,9 @@ using namespace std;
 int main() {
    
    double a,b,x,y,z;
-   cin<<a<<b<<x<<y;
+   cin>>a>>b>>x>>y;
    
-   if(x<0)&&(y>0))
+   if((x<0)&&(y>0))
       z=a*x-b*y;
    else
       {
@@ -18,7 +18,7 @@ int main() {
             z=a*x+b*y*y;
       }
    
-   cout>>z;
+   cout<<z;
    
    return 0;
 }
